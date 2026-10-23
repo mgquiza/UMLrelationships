@@ -18,4 +18,4 @@ class Employee():
 King = Employer("Arachnid", 35, 1000000)
 SiC = Employee("Wemmbu", 25, 50000,)
 
-print (SiC.pay_Difference(King.pay))
+print (f'Pay Difference: {SiC.pay_Difference(King.pay)}')
